@@ -1,0 +1,130 @@
+/*  Kevin Kraaijveld CSS Recepten
+============================================================================
+
+1. Algemene CSS
+2. Header
+3. Navigation
+4. Copyright
+5. Overige CSS
+
+============================================================================ */
+
+
+/* 1. Algemene CSS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+body {
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  color: #eee;
+  background-color: #222;
+  font-size: 14px;
+  line-height: 21px;
+  
+}
+/* 2. HEADER
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#kev-header{
+    display: block;
+    border-bottom: 1px solid #444;
+    height: 200px;
+    width:100%;
+}
+.row-fluid {
+    margin: 0 auto;
+    max-width: 980px;
+}
+a {
+  color: #0099ff;
+  text-decoration: none;
+}
+a:hover{
+    color:#aaa;
+}
+/* LOGO
+---------------------------------------------------------------------------- */
+
+#kev-logo {
+  height: 100%;
+  padding: 22px 0 0;
+  float: left;
+  margin-left: 135px;
+}
+
+img.tilt{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+img.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.kev-slogan {
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* KK: NAVIGATION
+---------------------------------------------------------------------------- */
+
+#kev-nav {
+  z-index: 100;
+  position: relative;
+  float: right;
+  width: 74.35897435897436%;
+}
+
+
+
+
+/* KK: COPYRIGHT
+---------------------------------------------------------------------------- */
+
+#kev-showcopyright p{
+  padding: 21px 0 7px;
+  font-size: 14px;
+}
+#kev-copyrightwrap{
+     border-top: 1px solid #444;
+}
+
+blockquote {
+    font-family: FontAwesome;
+    font-style: italic;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+}
+blockquote:before {
+    float: left;
+    font-size: 70px;
+    line-height: 1em;
+    margin-right: 0.5em;
+    content: "\201C";
+}
+
+/* KK: Overige CSS
+---------------------------------------------------------------------------- */
+
+h1{
+   font: 60px Brush Script Std;
+   color: #fff !important;
+   padding-left: 60px;
+}
+h2{
+   font: 30px open sans;
+   color: #eee;
+   font-weight: 300;
+}
+h3{
+    font: 20px open sans;
+    color: #eee;
+    font-weight: 300;
+}
+/*Made by Kevin Kraaijveld*/
